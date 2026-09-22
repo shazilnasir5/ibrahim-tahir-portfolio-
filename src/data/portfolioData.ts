@@ -8,7 +8,7 @@ import certHealthNexusIntern from '../assets/images/health_nexus_best_intern_ori
 import certEntertechJpeg from '../assets/images/4th.jpeg';
 import certVolunteerJpeg from '../assets/images/5th.jpeg';
 import certEnvion24Jpeg from '../assets/images/8th.jpeg';
-import ibrahimHeroPortrait from '../assets/images/IMG-20250729-WA0032.jpg';
+import ibrahimHeroPortrait from '../assets/images/dp.jpg';
 import certEcoLegalJpeg from '../assets/images/9th.jpeg';
 import certExploringJpeg from '../assets/images/10th.jpeg';
 import certIpexJpeg from '../assets/images/11th.jpeg';
