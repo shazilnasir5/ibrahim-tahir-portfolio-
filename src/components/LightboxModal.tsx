@@ -96,11 +96,7 @@ export function LightboxModal({
         <div className="md:w-3/5 bg-slate-950/90 flex items-center justify-center p-4 md:p-6 border-b md:border-b-0 md:border-r border-white/10 min-h-[280px]">
           {currentItem.imageUrl.toLowerCase().endsWith('.pdf') ? (
             <iframe
-<<<<<<< HEAD
               src={currentItem.imageUrl + '#toolbar=0'}
-=======
-              src={currentItem.imageUrl}
->>>>>>> origin/main
               title={currentItem.title}
               className="w-full h-[50vh] md:h-[60vh] rounded-xl border border-white/10"
             />

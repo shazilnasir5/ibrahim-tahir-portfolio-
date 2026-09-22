@@ -25,7 +25,6 @@ export function ProjectCard({ project, onSelect, index = 0 }: ProjectCardProps) 
         {/* Project Image Preview */}
         {project.imageUrl && (
           <div className="relative aspect-video w-full bg-slate-950 overflow-hidden border-b border-white/10">
-<<<<<<< HEAD
             {project.imageUrl.toLowerCase().endsWith('.pdf') ? (
               <iframe
                 src={project.imageUrl + '#toolbar=0'}
@@ -41,14 +40,6 @@ export function ProjectCard({ project, onSelect, index = 0 }: ProjectCardProps) 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
             )}
-=======
-            <img
-              src={project.imageUrl}
-              alt={project.title}
-              referrerPolicy="no-referrer"
-              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-            />
->>>>>>> origin/main
             <div className="absolute top-3 left-3 px-2.5 py-1 rounded-full text-[11px] font-semibold bg-slate-950/80 text-emerald-300 border border-emerald-500/30 backdrop-blur-md">
               {project.category}
             </div>

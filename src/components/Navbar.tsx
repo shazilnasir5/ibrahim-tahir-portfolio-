@@ -123,11 +123,7 @@ export function Navbar({ onOpenCv }: NavbarProps) {
                 className="ml-2 px-3.5 py-1.5 rounded-full text-xs font-bold bg-emerald-500 hover:bg-emerald-400 text-slate-950 transition-all shadow-md flex items-center gap-1.5 cursor-pointer"
               >
                 <FileText className="w-3.5 h-3.5" />
-<<<<<<< HEAD
                 <span>Open CV</span>
-=======
-                <span>View CV</span>
->>>>>>> origin/main
               </button>
             )}
           </div>

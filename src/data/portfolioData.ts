@@ -2,7 +2,6 @@ import { PortfolioData } from '../types';
 import certBiotechGenomics from '../assets/images/cert_biotech_genomics_1786101545697.jpg';
 import certCrisprLab from '../assets/images/cert_crispr_lab_1786101555727.jpg';
 import certBioprocessExcellence from '../assets/images/cert_bioprocess_excellence_1786101581004.jpg';
-<<<<<<< HEAD
 import certEnglishCoursePdf from '../assets/images/3rd.pdf';
 import projectDnaSequencing from '../assets/images/project_dna_sequencing_1786101565923.jpg';
 import certHealthNexusIntern from '../assets/images/health_nexus_best_intern_original.jpeg';
@@ -26,12 +25,6 @@ import certNigabPdf from '../assets/images/1st.pdf';
 import certCanliWorkshopPdf from '../assets/images/2nd.pdf';
 import certEnvion7Jpeg from '../assets/images/7th.jpeg';
 import certRasconJpeg from '../assets/images/6th.jpeg';
-=======
-import projectDnaSequencing from '../assets/images/project_dna_sequencing_1786101565923.jpg';
-import certHealthNexusIntern from '../assets/images/health_nexus_best_intern_original.jpeg';
-import ibrahimHeroPortrait from '../assets/images/IMG-20250729-WA0032.jpg';
->>>>>>> origin/main
-import { generateCertificateSvg, generateNigabCertificateSvg, generateCanliWorkshopCertificateSvg, generateLanguageLabCertificateSvg, generateEntertechCertificateSvg, generateHomeCharityCertificateSvg, generateRasconCertificateSvg, generateEnvion26CertificateSvg, generateEnvion24CertificateSvg, generateEcoLegalCertificateSvg, generateAgricultureCareersCertificateSvg, generateIpexCertificateSvg, generateOecSvlCertificateSvg, generateEnvion26AppreciationCertificateSvg, generateEnvion26ParticipationCertificateSvg, generateEPosterBlogCertificateSvg, generateSportsCulturalAppreciationCertificateSvg, generateCadetCollegePaintingCertificateSvg, generateIpcPaintingCertificateSvg, generateMgBioWebinarCertificateSvg, generateHealthNexusBestInternCertificateSvg } from '../utils/certificateGenerator';
 
 export const initialPortfolioData: PortfolioData = {
   name: "Ibrahim Tahir Sindhu",
@@ -109,11 +102,7 @@ export const initialPortfolioData: PortfolioData = {
       title: "Molecular Techniques Used in Nano Therapeutic Lab",
       issuer: "National Institute for Genomics & Advanced Biotechnology (NIGAB), NARC, Islamabad",
       date: "06 July - 07 August 2026",
-<<<<<<< HEAD
       imageUrl: certNigabPdf,
-=======
-      imageUrl: generateNigabCertificateSvg(),
->>>>>>> origin/main
       description: "Completed internship training at National Institute for Genomic & Advanced Biotechnology (NIGAB), NARC, Islamabad on Molecular Techniques Used in Nano Therapeutic Lab (Reg. #SU91-BSBTM-F23-010).",
       category: "Genomics",
       credentialUrl: "#"
@@ -123,11 +112,7 @@ export const initialPortfolioData: PortfolioData = {
       title: "Basic Microbiology to Molecular Biology Workshop (Batch 10)",
       issuer: "CANLI Institute of Emerging Health Technologies & TrustMed Lab",
       date: "09 May 2026",
-<<<<<<< HEAD
       imageUrl: certCanliWorkshopPdf,
-=======
-      imageUrl: generateCanliWorkshopCertificateSvg(),
->>>>>>> origin/main
       description: "Participated in hands-on training workshop on Basic Microbiology to Molecular Biology (Batch 10) organized by CANLI Institute of Emerging Health Technologies in collaboration with TrustMed Lab.",
       category: "Bio-Technology",
       credentialUrl: "#"
@@ -137,11 +122,7 @@ export const initialPortfolioData: PortfolioData = {
       title: "English Language Course Completion (Grade A)",
       issuer: "The Language Lab - Institute of Modern Studies",
       date: "Sept 2022 - Dec 2022",
-<<<<<<< HEAD
       imageUrl: certEnglishCoursePdf,
-=======
-      imageUrl: generateLanguageLabCertificateSvg(),
->>>>>>> origin/main
       description: "Completed Intermediate Level course in English Language with Grade 'A', covering Listening, Speaking, Reading, and Writing skills (Reg No: IS/111-0922).",
       category: "Award",
       credentialUrl: "#"
@@ -151,11 +132,7 @@ export const initialPortfolioData: PortfolioData = {
       title: "Youth Empowerment and Sustainability Training Program",
       issuer: "ENTERTECH Labs (Pvt) Ltd.",
       date: "04 November 2025",
-<<<<<<< HEAD
       imageUrl: certEntertechJpeg,
-=======
-      imageUrl: generateEntertechCertificateSvg(),
->>>>>>> origin/main
       description: "Certificate of Appreciation for completing training focused on UN Sustainable Development Goals (SDGs) and Environmental Lab Practices with hands-on experience.",
       category: "Research",
       credentialUrl: "#"
@@ -165,11 +142,7 @@ export const initialPortfolioData: PortfolioData = {
       title: "Certificate of Appreciation - Volunteer",
       issuer: "Home Charity Trust",
       date: "2024",
-<<<<<<< HEAD
       imageUrl: certVolunteerJpeg,
-=======
-      imageUrl: generateHomeCharityCertificateSvg(),
->>>>>>> origin/main
       description: "Awarded Certificate of Appreciation for dedication and commitment as a volunteer in Home Charity Trust.",
       category: "Award",
       credentialUrl: "#"
@@ -179,11 +152,7 @@ export const initialPortfolioData: PortfolioData = {
       title: "3rd RASCON 2025 - National Chapter",
       issuer: "Superior University, Lahore (FAHS)",
       date: "16th October 2025",
-<<<<<<< HEAD
       imageUrl: certRasconJpeg,
-=======
-      imageUrl: generateRasconCertificateSvg(),
->>>>>>> origin/main
       description: "Certificate of Participation at 3rd RASCON 2025 under theme 'Sustainable Rehabilitation and Allied Health Sciences: AI, Ethics, and Multidisciplinary Innovations' (6+6 CME+CPD Credit Hours).",
       category: "Research",
       credentialUrl: "#"
@@ -193,11 +162,7 @@ export const initialPortfolioData: PortfolioData = {
       title: "3rd Envion-26 - Research Week Contribution",
       issuer: "Department of Biological Sciences, Superior University",
       date: "22nd April 2026",
-<<<<<<< HEAD
       imageUrl: certEnvion7Jpeg,
-=======
-      imageUrl: generateEnvion26CertificateSvg(),
->>>>>>> origin/main
       description: "Certificate of Appreciation in appreciation of valuable contribution to Envion-26 during Research Week.",
       category: "Research",
       credentialUrl: "#"
@@ -207,11 +172,7 @@ export const initialPortfolioData: PortfolioData = {
       title: "Envion-24 - Climate Change Adaptability Week",
       issuer: "Faculty of Allied Health Sciences, Superior University",
       date: "6th - 7th November 2024",
-<<<<<<< HEAD
       imageUrl: certEnvion24Jpeg,
-=======
-      imageUrl: generateEnvion24CertificateSvg(),
->>>>>>> origin/main
       description: "Participated in Envion-24 organized during Research Climate Change Adaptability Week by Faculty of Allied Health Sciences & Faculty of Sciences.",
       category: "Research",
       credentialUrl: "#"
@@ -221,11 +182,7 @@ export const initialPortfolioData: PortfolioData = {
       title: "Eco Legal Nexus Workshop",
       issuer: "Superior Law Moot Court Society & Superior Environmental Society",
       date: "30th September 2025",
-<<<<<<< HEAD
       imageUrl: certEcoLegalJpeg,
-=======
-      imageUrl: generateEcoLegalCertificateSvg(),
->>>>>>> origin/main
       description: "Certificate of Participation for participating in the Eco Legal Nexus Workshop organised by Superior Law Moot Court Society in collaboration with Superior Environmental Society.",
       category: "Research",
       credentialUrl: "#"
@@ -235,11 +192,7 @@ export const initialPortfolioData: PortfolioData = {
       title: "Exploring Careers in Agriculture and Biological Science",
       issuer: "Department of Agricultural Sciences & Biological Sciences, Superior University",
       date: "2025",
-<<<<<<< HEAD
       imageUrl: certExploringJpeg,
-=======
-      imageUrl: generateAgricultureCareersCertificateSvg(),
->>>>>>> origin/main
       description: "Certificate of Participation awarded for participating in the workshop titled Exploring Careers in Agriculture and Biological Science organised by Department of Agricultural Sciences in collaboration with Biological Sciences, Superior University Lahore.",
       category: "Bio-Technology",
       credentialUrl: "#"
@@ -249,11 +202,7 @@ export const initialPortfolioData: PortfolioData = {
       title: "International Poultry Expo-2025 (IPEX-2025)",
       issuer: "Pakistan Poultry Association (PPA)",
       date: "23rd, 24th, 25th October 2025",
-<<<<<<< HEAD
       imageUrl: certIpexJpeg,
-=======
-      imageUrl: generateIpexCertificateSvg(),
->>>>>>> origin/main
       description: "Certificate of Participation for participating in the International Poultry Expo held on 23rd, 24th, 25th October 2025 at Lahore Expo Center.",
       category: "Bio-Technology",
       credentialUrl: "#"
@@ -263,11 +212,7 @@ export const initialPortfolioData: PortfolioData = {
       title: "Certificate of Acknowledgement - Student Volunteer Leader (SVL)",
       issuer: "Office of Engagement & Co-Creation, Superior University",
       date: "2023 - 2024",
-<<<<<<< HEAD
       imageUrl: certSvlJpeg,
-=======
-      imageUrl: generateOecSvlCertificateSvg(),
->>>>>>> origin/main
       description: "Certificate of Acknowledgement presented for valuable contribution as a Student Volunteer Leader (SVL) of Department of Biological Sciences for 2023 - 2024.",
       category: "Award",
       credentialUrl: "#"
@@ -277,11 +222,7 @@ export const initialPortfolioData: PortfolioData = {
       title: "3rd Envion-26 - Certificate of Appreciation",
       issuer: "Department of Biological Sciences, Faculty of Sciences, Superior University",
       date: "22nd April 2026",
-<<<<<<< HEAD
       imageUrl: certEnvionAppJpeg,
-=======
-      imageUrl: generateEnvion26AppreciationCertificateSvg(),
->>>>>>> origin/main
       description: "Certificate of Appreciation presented in recognition of outstanding efforts and dedication in organizing ENVION 26 during Research Week (15th - 24th April 2026).",
       category: "Award",
       credentialUrl: "#"
@@ -291,11 +232,7 @@ export const initialPortfolioData: PortfolioData = {
       title: "3rd Envion-26 - Certificate of Participation",
       issuer: "Faculty of Sciences / Faculty of Allied Health Sciences, Superior University",
       date: "22nd April 2026",
-<<<<<<< HEAD
       imageUrl: certEnvionPartJpeg,
-=======
-      imageUrl: generateEnvion26ParticipationCertificateSvg(),
->>>>>>> origin/main
       description: "Certificate of Participation presented in recognition of valued presence as a participant at ENVION 26 during Research Week (15th - 24th April 2026).",
       category: "Research",
       credentialUrl: "#"
@@ -305,11 +242,7 @@ export const initialPortfolioData: PortfolioData = {
       title: "Intra-University E-Poster & Blog Writing Competition",
       issuer: "Office of Engagement & Co-Creation / Sustainable Environment Society, Superior University",
       date: "Environmental Day",
-<<<<<<< HEAD
       imageUrl: certIntraJpeg,
-=======
-      imageUrl: generateEPosterBlogCertificateSvg(),
->>>>>>> origin/main
       description: "Certificate of Participation presented in recognition of valuable participation in the Intra University E-Poster & Blog Writing competition organized on the occasion of Environmental Day.",
       category: "Award",
       credentialUrl: "#"
@@ -319,11 +252,7 @@ export const initialPortfolioData: PortfolioData = {
       title: "Sports and Cultural Festival - Certificate of Appreciation",
       issuer: "Department of Biological Sciences, Superior University",
       date: "14th February 2026",
-<<<<<<< HEAD
       imageUrl: certSportsAppJpeg,
-=======
-      imageUrl: generateSportsCulturalAppreciationCertificateSvg(),
->>>>>>> origin/main
       description: "Certificate of Appreciation presented in recognition of active participation and valuable support to the Department of Biological Sciences during the Sports and Cultural Festival held on 14th February 2026.",
       category: "Award",
       credentialUrl: "#"
@@ -333,11 +262,7 @@ export const initialPortfolioData: PortfolioData = {
       title: "All Pakistan Annual Painting Competition - Merit Certificate",
       issuer: "Cadet College Choa Saiden Shah Chakwal / GCC Kohat",
       date: "26th September 2021",
-<<<<<<< HEAD
       imageUrl: certAllPakPaintingPdf,
-=======
-      imageUrl: generateCadetCollegePaintingCertificateSvg(),
->>>>>>> origin/main
       description: "Merit Certificate awarded for participation in the All Pakistan Annual Painting Competition on the topic 'Pakistan in the 21st Century' representing Garrison Cadet College Kohat.",
       category: "Award",
       credentialUrl: "#"
@@ -347,11 +272,7 @@ export const initialPortfolioData: PortfolioData = {
       title: "International Painting Competition - Certificate of Achievement",
       issuer: "IPC / Brunik & Blesso",
       date: "2022",
-<<<<<<< HEAD
       imageUrl: certIntlPaintingPdf,
-=======
-      imageUrl: generateIpcPaintingCertificateSvg(),
->>>>>>> origin/main
       description: "Certificate of Achievement proudly presented in the International Painting Competition sponsored by Brunik and Blesso.",
       category: "Award",
       credentialUrl: "#"
@@ -361,11 +282,7 @@ export const initialPortfolioData: PortfolioData = {
       title: "From Data to Manuscript: Research Publication Journey",
       issuer: "MGBio: A Tech-Bio Company",
       date: "22nd July 2026",
-<<<<<<< HEAD
       imageUrl: certDataToManuscriptPdf,
-=======
-      imageUrl: generateMgBioWebinarCertificateSvg(),
->>>>>>> origin/main
       description: "Certificate of Participation awarded for attending the webinar 'From Data to Manuscript: Navigating the Research Publication Journey' organized by MGBio (Verification ID: FDTMWEB479).",
       category: "Research",
       credentialUrl: "#"
@@ -375,11 +292,7 @@ export const initialPortfolioData: PortfolioData = {
       title: "Our Best Intern - Mental Health Advocate Internship Program 2026",
       issuer: "Health Nexus & Thrive 360°",
       date: "2026",
-<<<<<<< HEAD
       imageUrl: certBestInternJpeg,
-=======
-      imageUrl: certHealthNexusIntern,
->>>>>>> origin/main
       description: "Recognized as 'Our Best Intern' for outstanding dedication, leadership, and exceptional contribution towards promoting mental health awareness and community impact.",
       category: "Award",
       credentialUrl: "#"
@@ -396,11 +309,7 @@ export const initialPortfolioData: PortfolioData = {
       tags: ["NIGAB NARC Islamabad", "Nano-Therapeutics", "Molecular Protocols", "Reg. #SU91-BSBTM-F23-010"],
       tools: ["Nano-Therapeutic Protocols", "DNA Extraction", "UV-Vis Spectrophotometry", "Microscopy Assays", "BSL Laboratory Safety"],
       year: "2026",
-<<<<<<< HEAD
       imageUrl: certNigabPdf,
-=======
-      imageUrl: generateNigabCertificateSvg(),
->>>>>>> origin/main
       highlights: [
         "Completed 1-month intensive research internship at National Institute for Genomics & Advanced Biotechnology (NIGAB), NARC Islamabad (06 July – 07 August 2026)",
         "Trained directly in Molecular Techniques Used in Nano Therapeutic Lab under Registration #SU91-BSBTM-F23-010",
@@ -417,11 +326,7 @@ export const initialPortfolioData: PortfolioData = {
       tags: ["Genomics", "DNA Extraction", "Molecular Diagnostics", "NIGAB Research"],
       tools: ["Genomic DNA Isolation", "Agarose Gel Electrophoresis", "PCR Amplification", "Nanodrop Purity Analysis"],
       year: "2026",
-<<<<<<< HEAD
       imageUrl: certNigabPdf,
-=======
-      imageUrl: generateNigabCertificateSvg(),
->>>>>>> origin/main
       highlights: [
         "Executed high-yield genomic DNA isolation protocols from diverse biological specimens",
         "Assessed DNA purity ratios (A260/A280) using UV-Vis spectrophotometry",
