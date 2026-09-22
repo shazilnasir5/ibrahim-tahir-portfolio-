@@ -143,7 +143,11 @@ export function Hero({ data, onOpenCv }: HeroProps) {
               className="px-6 py-3 rounded-full text-sm font-bold bg-gradient-to-r from-emerald-500 to-teal-400 text-slate-950 hover:from-emerald-400 hover:to-teal-300 shadow-lg shadow-emerald-500/25 transition-all duration-200 flex items-center gap-2 cursor-pointer hover:scale-105"
             >
               <FileText className="w-4 h-4 text-slate-950" />
+<<<<<<< HEAD
               <span>Open CV</span>
+=======
+              <span>Preview & Download CV</span>
+>>>>>>> origin/main
             </button>
           )}
 

@@ -7,6 +7,10 @@ import {
   ExternalLink, 
   Pause, 
   Play, 
+<<<<<<< HEAD
+=======
+  Gauge,
+>>>>>>> origin/main
   LayoutGrid,
   ScrollText,
   MousePointerClick
@@ -22,7 +26,11 @@ export function AchievementGallery({ certificates }: AchievementGalleryProps) {
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
   const [isPaused, setIsPaused] = useState<boolean>(false);
+<<<<<<< HEAD
   const [speed, setSpeed] = useState<'normal' | 'slow' | 'fast'>('slow');
+=======
+  const [speed, setSpeed] = useState<'normal' | 'slow' | 'fast'>('normal');
+>>>>>>> origin/main
   const [viewMode, setViewMode] = useState<'marquee' | 'grid'>('marquee');
 
   // Extract unique categories
@@ -131,7 +139,42 @@ export function AchievementGallery({ certificates }: AchievementGalleryProps) {
                 </button>
               )}
 
+<<<<<<< HEAD
               {/* Speed controls removed; default scroll set to slow */}
+=======
+              {/* Speed Switcher */}
+              {viewMode === 'marquee' && (
+                <div className="hidden sm:flex items-center gap-1 bg-slate-900/80 p-0.5 rounded-xl border border-white/10 text-xs">
+                  <span className="px-1.5 text-slate-400 flex items-center gap-1">
+                    <Gauge className="w-3 h-3 text-emerald-400" />
+                  </span>
+                  <button
+                    onClick={() => setSpeed('slow')}
+                    className={`px-2 py-1 rounded-lg transition cursor-pointer text-[11px] ${
+                      speed === 'slow' ? 'bg-emerald-500 text-slate-950 font-bold' : 'text-slate-400 hover:text-white'
+                    }`}
+                  >
+                    Slow
+                  </button>
+                  <button
+                    onClick={() => setSpeed('normal')}
+                    className={`px-2 py-1 rounded-lg transition cursor-pointer text-[11px] ${
+                      speed === 'normal' ? 'bg-emerald-500 text-slate-950 font-bold' : 'text-slate-400 hover:text-white'
+                    }`}
+                  >
+                    Normal
+                  </button>
+                  <button
+                    onClick={() => setSpeed('fast')}
+                    className={`px-2 py-1 rounded-lg transition cursor-pointer text-[11px] ${
+                      speed === 'fast' ? 'bg-emerald-500 text-slate-950 font-bold' : 'text-slate-400 hover:text-white'
+                    }`}
+                  >
+                    Fast
+                  </button>
+                </div>
+              )}
+>>>>>>> origin/main
 
               {/* View Switcher (Horizontal Stream vs Grid) */}
               <div className="flex items-center bg-slate-900/80 p-0.5 rounded-xl border border-white/10 text-xs">
@@ -181,6 +224,7 @@ export function AchievementGallery({ certificates }: AchievementGalleryProps) {
                 >
                   {/* Certificate Image Container */}
                   <div className="relative h-48 sm:h-52 w-full bg-slate-950/90 p-3 flex items-center justify-center overflow-hidden border-b border-white/10">
+<<<<<<< HEAD
                     {cert.imageUrl.toLowerCase().endsWith('.pdf') ? (
                       <iframe
                         src={cert.imageUrl + '#toolbar=0'}
@@ -197,6 +241,15 @@ export function AchievementGallery({ certificates }: AchievementGalleryProps) {
                         className="max-h-full max-w-full h-auto w-auto object-contain transition-transform duration-300 group-hover:scale-105"
                       />
                     )}
+=======
+                    <img
+                      src={cert.imageUrl}
+                      alt={cert.title}
+                      referrerPolicy="no-referrer"
+                      loading="lazy"
+                      className="max-h-full max-w-full h-auto w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+                    />
+>>>>>>> origin/main
                     
                     {/* Hover Overlay */}
                     <div className="absolute inset-0 bg-slate-950/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center backdrop-blur-[2px]">
@@ -262,6 +315,7 @@ export function AchievementGallery({ certificates }: AchievementGalleryProps) {
                   className="group glass-panel rounded-2xl overflow-hidden cursor-pointer border border-white/15 flex flex-col transition-all duration-300 hover:scale-[1.02] hover:border-emerald-400/50 hover:shadow-xl hover:shadow-emerald-950/40 bg-slate-900/60"
                 >
                   <div className="relative h-48 sm:h-52 w-full bg-slate-950/90 p-3 flex items-center justify-center overflow-hidden border-b border-white/10">
+<<<<<<< HEAD
                     {cert.imageUrl.toLowerCase().endsWith('.pdf') ? (
                       <iframe
                         src={cert.imageUrl + '#toolbar=0'}
@@ -277,6 +331,14 @@ export function AchievementGallery({ certificates }: AchievementGalleryProps) {
                         className="max-h-full max-w-full h-auto w-auto object-contain transition-transform duration-300 group-hover:scale-105"
                       />
                     )}
+=======
+                    <img
+                      src={cert.imageUrl}
+                      alt={cert.title}
+                      referrerPolicy="no-referrer"
+                      className="max-h-full max-w-full h-auto w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+                    />
+>>>>>>> origin/main
                     <div className="absolute inset-0 bg-slate-950/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center backdrop-blur-[2px]">
                       <span className="flex items-center gap-1.5 px-4 py-2 rounded-full bg-emerald-500 text-slate-950 text-xs font-bold shadow-lg">
                         <Eye className="w-4 h-4" /> View Certificate
